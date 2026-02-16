@@ -87,8 +87,7 @@ function LoginForm() {
             </button>
           </form>
 
-          <div className="mt-8 text-center text-sm text-[#8c8c8c]">
-          </div>
+
         </div>
       </div>
     </div>
