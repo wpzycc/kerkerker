@@ -43,9 +43,9 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
       ],
     },
     {
-      href: "https://github.com/unilei/kerkerker",
-      label: "Github",
-      icon: Github,
+      href: "https://wpzy.cc",
+      label: "论坛",
+      icon: ,
       external: true,
     },
   ];
