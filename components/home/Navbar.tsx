@@ -42,6 +42,9 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
         { href: "/dailymotion", label: "短剧Motion" },
       ],
     },
+    {
+      external: true,
+    },
   ];
 
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
