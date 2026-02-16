@@ -44,7 +44,7 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
     },
     {
       href: "",
-      label: "",
+      label: "Github",
       icon: ,
       external: true,
     },
