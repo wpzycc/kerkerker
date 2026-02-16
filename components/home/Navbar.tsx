@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Menu, X, Home, Film, Tv, Clock, Video, Github, Calendar, History } from "lucide-react";
+import { Menu, X, Home, Film, Tv, Clock, Video, 论坛, Calendar, History } from "lucide-react";
 import { HistoryPopup } from "./HistoryPopup";
 
 interface NavbarProps {
@@ -45,7 +45,7 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
     {
       href: "https://wpzy.cc",
       label: "论坛",
-      icon: ,
+      icon: 论坛,
       external: true,
     },
   ];
