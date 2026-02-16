@@ -19,7 +19,7 @@ import type {
 import type { DailymotionChannelConfig } from "@/types/dailymotion-config";
 import { Tv, Film, Youtube, Settings, Database } from "lucide-react";
 
-输入 TabType = "sources" | "shorts" | "dailymotion" | "player" | "database";
+type TabType = "sources" | "shorts" | "dailymotion" | "player" | "database";
 
 const VALID_TABS: TabType[] = ["sources", "shorts", "dailymotion", "player", "database"];
 
