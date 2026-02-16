@@ -48,7 +48,7 @@ function LoginForm() {
         <div className="bg-[#1a1a1a] rounded-lg shadow-2xl p-10 border border-[#333]">
           {/* Netflix Logo Style */}
           <div className="text-center mb-8">
-            <h1 className="text-4xl font-bold text-[#E50914] mb-2">壳儿</h1>
+            <h1 className="text-4xl font-bold text-[#E50914] mb-2">可可影视</h1>
             <p className="text-[#808080] text-lg">后台管理系统</p>
           </div>
 
@@ -88,8 +88,6 @@ function LoginForm() {
           </form>
 
           <div className="mt-8 text-center text-sm text-[#8c8c8c]">
-            <p>默认密码：admin123</p>
-            <p className="mt-1">可通过环境变量 ADMIN_PASSWORD 修改</p>
           </div>
         </div>
       </div>
