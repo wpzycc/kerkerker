@@ -43,7 +43,7 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
       ],
     },
     {
-      href: "https://github.com/unilei/kerkerker",
+      href: "https://wpzy.cc",
       label: "Github",
       icon: Github,
       external: true,
