@@ -42,6 +42,12 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
         { href: "/dailymotion", label: "短剧Motion" },
       ],
     },
+    {
+      href: "https://github.com/unilei/kerkerker",
+      label: "Github",
+      icon: Github,
+      external: true,
+    },
   ];
 
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -83,7 +89,7 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
                 alt="logo"
               />
               <span className="text-red-600 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight hover:text-red-500 transition-colors">
-                可可影视
+                壳儿
               </span>
             </Link>
 
@@ -253,7 +259,7 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
           {/* 侧边栏底部 */}
           <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-gray-800">
             <p className="text-xs text-gray-500 text-center">
-              © 2026 可可 · 影视
+              © 2026 壳儿 · 这就是个壳儿
             </p>
           </div>
         </div>
