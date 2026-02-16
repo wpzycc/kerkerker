@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Menu, X, Home, Film, Tv, Clock, Video, Calendar, History } from "lucide-react";
+import { Menu, X, Home, Film, Tv, Clock, Video, Github, Calendar, History } from "lucide-react";
 import { HistoryPopup } from "./HistoryPopup";
 
 interface NavbarProps {
