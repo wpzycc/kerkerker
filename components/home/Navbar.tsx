@@ -203,7 +203,7 @@ export function Navbar({ scrolled, onSearchOpen }: NavbarProps) {
             <div className="flex items-center gap-2">
               <img className="w-10 h-10" src="/logo.png" alt="logo" />
               <h2 className="text-red-600 text-2xl font-bold tracking-tight">
-                壳儿
+               可可影视
               </h2>
             </div>
           </div>
